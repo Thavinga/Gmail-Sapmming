@@ -9,9 +9,14 @@
 
 class Mail{
   
-  private String mail;
+  private String address;
   
   
+  
+  //method to set mail addres
+  public void setMail( String address ){
+    this.address = address;
+  }
   
   
 }
